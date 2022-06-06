@@ -1,12 +1,14 @@
 ## 1. Summary
 This dataset is a real-world dataset of junior high school physics quiz questions, with a total of 19,410 questions, covering 30 knowledge units from grade 7th to 8th. It is provided by our collaborator, an educational technology company. 
+Some sample questions are publicly available at https://github.com/haoinglee/S-KMN.
+The sample datasets publication and full datasets usage for academic research is permitted, after the consensus is reached, all datasets will be publicly available.
 _The process of labeling dataset:_ 
 The dataset is manually labeled by a team of professional teachers in our collaborating company. To ensure labeling quality and consistency, three annotators, with specialized knowledge of physical disciplines, participated in the annotation task. The entire annotation proceeds in a two-stage process, where the annotators independently label the entire dataset of 19,410 questions in stage 1, and each of the questions where the annotators do not have complete agreement is negotiated by all annotators to determine the final knowledge unit in stage 2. This process produces high-quality knowledge units for the physics quiz question dataset. This dataset was generated on April 26, 2020.
 _Dataset Overview:_
 
 - Each question consists of the question text and the option, annotated knowledge units and question types.
 - The data are contained in the files train.csv, test.csv, ratings.csv and tags.csv. More details about the contents and use of all these files follows.
-- The physics quiz question dataset are publicly available for download at [physics quiz question dataset](~)
+
 ## 2. Usage License
 Neither the Central China Normal University nor any of the researchers involved can guarantee the correctness of the data, its suitability for any particular purpose, or the validity of results based on the use of the data set. The data set may be used for any research purposes under the following conditions:
 
